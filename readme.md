@@ -1,7 +1,6 @@
 # display-cents [![Build Status](https://travis-ci.org/ajoslin/display-cents.svg?branch=master)](https://travis-ci.org/ajoslin/display-cents)
 
-> Display cents as a two-digit number for currency 
-
+> Display cents as a two-digit number for currency. Stupid small.
 
 ## Install
 
@@ -15,30 +14,12 @@ $ npm install --save display-cents
 ```js
 var displayCents = require('display-cents')
 
-displayCents('input')
-//=> output
+displayCents(100) // => '1.00'
 ```
 
 ## API
 
-#### `displayCents(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+#### `displayCents(cents)` -> `formattedCents`
 
 ## License
 
