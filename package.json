@@ -1,7 +1,7 @@
 {
   "name": "display-cents",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Display cents as a two-digit number for currency ",
   "license": "MIT",
   "repository": "ajoslin/display-cents",
