@@ -1,0 +1,29 @@
+{
+  "name": "display-cents",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Display cents as a two-digit number for currency ",
+  "license": "MIT",
+  "repository": "ajoslin/display-cents",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "cents",
+    "format",
+    "string"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
